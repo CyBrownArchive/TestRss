@@ -1,0 +1,14 @@
+{
+    "require": {
+        "silex/silex": "1.*",
+        "desarrolla2/rss-client": "dev-master",
+        "twig/twig": "v1.13.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "symfony/browser-kit": "*"
+    },
+    "autoload": {
+        "psr-0": {"TestRss\\": "src/"}
+    }
+}
